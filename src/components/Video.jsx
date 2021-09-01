@@ -10,6 +10,7 @@ export default class Video extends Component {
               autoplay: 1,
               start: 95,
               controls: 0,
+              mute: 1,
             },
           };
         

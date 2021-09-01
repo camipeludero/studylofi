@@ -8,7 +8,7 @@ function App() {
     return (
         <>
         <div id="overlay">    
-        <h1>studio</h1>
+        <h1>studio lofi</h1>
         </div> 
         <Video />
             <Pomodoro />

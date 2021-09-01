@@ -18,6 +18,7 @@ export default class Video extends Component {
             <div className="video-container">
             <YouTube opts={opts}
             videoId={videoUrl}
+            onReady={(e) => e.target.playVideo()}
             onPause={(e) => e.target.playVideo()}
           />
             </div>

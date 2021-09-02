@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# This is ✨ studiolofi ✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit the site -> http://studiolofi.herokuapp.com/
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+STUDIOLOFI was born after the constant hours I spend on my laptop -coding, studying, coding again- and the awful _beep_ sound that the Pomodoro App on my phone had. So I mixed some lofi ambience and resources to make it the perfect study/coding buddy.
 
-### `npm start`
+Now I just love that my favourite app on the web is made by me ❤
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🍅Pomodoro
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This was the perfect app for including that Pomodoro Component that I made back when I was learning React's basics, *and it has a cute beep sound!!* 🤩
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📝To do list
 
-### `npm run build`
+Well, as I'm a recicler both in real life and in the virtual world, I included a really helpful to-do list (for lists lovers)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌇Lofi Ambience and music
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I included here some lofi playlists for background music 🎶 *disclaimer: I do not own any of these videos or music, and hapilly remove any of them if there's some trouble with copys*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖐Draggable
 
-### `npm run eject`
+I included Draggable React Librabry in order to make everything draggable and improve UX
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## This will continue...
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I'm planning on adding more cool stuff on this app so stay tuned for more!🥰
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+##
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Made with ♥ by Cami 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank's for reading! You can contact me anytime https://camilapeludero.netlify.app/

@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './css/PlayerControl.css';
 import minIcon from '../img/icons/min.svg';
 import maxIcon from '../img/icons/max.svg';
 import closeIcon from '../img/icons/close.svg';
 import muteIcon from '../img/icons/muted.svg';
 import volumeIcon from '../img/icons/volume.svg';
+import Draggable from 'react-draggable';
 
 function PlayerControl(props) {
+  const window = useRef(null);
     return (
         <>
-        <div className=" window player-controlls">
+            <Draggable>
+        <div className=" window player-controlls" ref={window}>
           <div className="window-header">
           <p>now playing</p>
           <div className="window-btns">
@@ -30,6 +33,7 @@ function PlayerControl(props) {
           </div>
           <div className="window-footer"></div>
           </div>
+          </Draggable>
         </>
     )
 }

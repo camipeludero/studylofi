@@ -9,10 +9,13 @@ import closeIcon from '../img/icons/close.svg';
 import './css/Pomodoro.css'
 import playIcon from '../img/icons/play.svg';
 import stopIcon from '../img/icons/stop.svg';
+import Draggable from 'react-draggable';
+
 
 const Pomodoro = () => {
 
   const audioElement = useRef(null);
+  const window = useRef(null);
   const [currentSessionType, setCurrentSessionType] = useState("Session");
   const [intervalId, setIntervalId] = useState(null);
   const [sessionLength, setSessionLength] = useState(60 * 25);
@@ -89,7 +92,8 @@ const Pomodoro = () => {
 
   return (
     <>
-    <div className="pomodoro window">
+    <Draggable>
+    <div className="pomodoro window" ref={window}>
       <div className="window-header">
         <p className="window-title">pomodoro</p>
         <div className="window-btns">
@@ -126,6 +130,7 @@ const Pomodoro = () => {
       </audio>
       <div className="window-footer"></div>
       </div>
+      </Draggable>
     </>
   );
 }

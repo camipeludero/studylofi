@@ -9,10 +9,9 @@ import closeIcon from '../img/icons/close.svg';
 import './css/Pomodoro.css'
 import playIcon from '../img/icons/play.svg';
 import stopIcon from '../img/icons/stop.svg';
-import undoIcon from '../img/icons/undo.svg';
-import volumeIcon from '../img/icons/volume.svg';
 
 const Pomodoro = () => {
+
   const audioElement = useRef(null);
   const [currentSessionType, setCurrentSessionType] = useState("Session");
   const [intervalId, setIntervalId] = useState(null);
@@ -102,29 +101,23 @@ const Pomodoro = () => {
       <TimeLeft
         timeLeft={timeLeft}
         handleStartStopClick={handleStartStopClick}
+        handleResetButtonClick={handleResetButtonClick}
         timerLabel={currentSessionType}
         startStopButtonLabel={isStarted ? <img src={stopIcon} alt="Stop Icon"/> : <img src={playIcon} alt="Play Icon"/>}
       />
       <div className="timer-controlls">
-      <Break
-        breakLength={breakLength}
-        decrementBreakLengthByOneMinute={decrementBreakLengthByOneMinute}
-        incrementBreakLengthByOneMinute={incrementBreakLengthByOneMinute}
-      />
       <Session
         sessionLength={sessionLength}
         decrementSessionLengthByOneMinute={decrementSessionLengthByOneMinute}
         incrementSessionLengthByOneMinute={incrementSessionLengthByOneMinute}
       />
+      <Break
+        breakLength={breakLength}
+        decrementBreakLengthByOneMinute={decrementBreakLengthByOneMinute}
+        incrementBreakLengthByOneMinute={incrementBreakLengthByOneMinute}
+      />
       </div>
-      <div className="pomodoro-settings">
-      <button className="pomodoro-btn reset" onClick={handleResetButtonClick}>
-      <img src={undoIcon} alt="undo Icon"/>
-      </button>
-      <button className="pomodoro-btn config">
-      <img src={volumeIcon} alt="volume Icon"/>
-      </button>
-      </div>
+     
       <audio id="beep" ref={audioElement}>
         <source
           src={bellSound}

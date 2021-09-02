@@ -30,34 +30,7 @@ h3.clock{
     font-size: 2.5em;
 }
 
-.window{
-    background: #fff;
-    border: 3px solid #E075B9;
-    border-radius: 10px;
-    color: #FC6095;
-}
 
-.window-header, .window-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.125rem;
-    background: #CDC5FF;
-    height: 2rem;
-    color: #fff;
-    font-size: .8rem;
-    text-transform: uppercase;
-}
-
-.window-header button{
-    width: 24px;
-    height: 24px;
-    padding: 2px;
-    border-radius: 2px;
-    border: 2px solid #E075B9;
-    margin-left: 3px;
-}
 
 .pomodoro-btn{
     color: #FC6095;
@@ -70,27 +43,42 @@ h3.clock{
     height: 3rem;
 }
 
-
-
-.pomodoro-btn.session, .pomodoro-btn.break, .pomodoro-btn.reset, .pomodoro-btn.config{
-    height: 2rem;
+.pomodoro-btn.reset{
     width: 2rem;
+    height: 2rem;
 }
 
 .pomodoro-controlls{
     text-align: center;
 }
 
-.pomodoro-settings{
+.time-ctrl{
     display: flex;
-    justify-content: flex-end;
+    flex-flow: row;
     align-items: center;
-    gap: .5rem;
-    padding: .5rem;
 }
 
-.pomodoro-btn.reset, .pomodoro-btn.config, .pomodoro-btn.play{
+.time-ctrl button{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.time-ctrl p{
+    font-size: 1.5rem;
+    margin: 0 4px;
+}
+
+.pomodoro-btn.reset, .pomodoro-btn.play{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.timer-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin: .5rem 0 .5rem calc(50% - 4rem);
 }

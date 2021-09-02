@@ -5,6 +5,8 @@ import './css/Todo.css';
 import minIcon from '../img/icons/min.svg';
 import maxIcon from '../img/icons/max.svg';
 import closeIcon from '../img/icons/close.svg';
+import plusIcon from '../img/icons/plus.svg';
+import trashIcon from '../img/icons/trash.svg';
 
 const KEY = "todoTodo.todos";
 
@@ -62,12 +64,16 @@ export default function Todo() {
         </div>
         </div>
   <TodoList todos={todos} toggleTodo={toggleTodo} />
-  <input ref={todoTaskRef} type="text" placeholder="Nueva Tarea"/>
-  <button onClick={handleTodoAdd}>➕</button>
-  <button onClick={handleClearAll}>🗑️</button>
-  <div id="todosLeft">Te quedan {todos.filter((todo) => !todo.completed).length} tareas por terminar</div>
-  
-  <div className="window-footer"></div>
+  <div class="todo-new">
+  <textarea ref={todoTaskRef} placeholder="New task..." rows="2" wrap="soft"/>
+  <div className="todo-btns">
+  <button className="new-todo" onClick={handleTodoAdd}><img src={plusIcon} alt="Add a new task"/></button>
+  <button className="delete-todo" onClick={handleClearAll}><img src={trashIcon} alt="Delete task"/></button>
+  </div>
+  </div>
+  <div className="window-footer">
+  <div id="todosLeft">You can do it! Only {todos.filter((todo) => !todo.completed).length} more ♥</div>
+  </div>
   </div>
   </>
   );

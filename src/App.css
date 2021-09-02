@@ -1,3 +1,7 @@
+:root{
+  --color-primary: #FC6095;
+}
+
 *{
   overflow: hidden;
 }
@@ -52,6 +56,43 @@ h1{
 
 button{
   cursor: pointer;
+}
+
+.window{
+  background: #fff;
+  border: 3px solid #E075B9;
+  border-radius: 10px;
+  color: #FC6095;
+  cursor: grab;
+}
+
+.window-header, .window-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.125rem;
+  background: #CDC5FF;
+  height: 2rem;
+  color: #fff;
+  font-size: .8rem;
+}
+
+.window-header{
+  text-transform: uppercase;
+}
+
+.window-footer{
+  text-transform: lowercase;
+}
+
+.window-header button{
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  border-radius: 2px;
+  border: 2px solid #E075B9;
+  margin-left: 3px;
 }
 
 .player-controlls{

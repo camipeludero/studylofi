@@ -12,9 +12,11 @@ const Session = ({
     return (
         <div className="pomodoro-controlls">
             <p id="session-label">Session</p>
-            <p id="session-length">{sessionLengthInMinutes}</p>
+            <div className="time-ctrl">
             <button className="pomodoro-btn session" onClick={decrementSessionLengthByOneMinute}>-</button>
+            <p id="session-length">{sessionLengthInMinutes}</p>
             <button className="pomodoro-btn session" onClick={incrementSessionLengthByOneMinute}>+</button>
+        </div>
         </div>
     )
 }

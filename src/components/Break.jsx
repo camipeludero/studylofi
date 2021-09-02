@@ -11,10 +11,12 @@ const Break = ({
     return (
         <div  className="pomodoro-controlls">
             <p id="break-label">Break</p>
-            <p id="break-length">{breakLengthInMinutes}</p>
+            <div className="time-ctrl">
             <button className="pomodoro-btn break" onClick={decrementBreakLengthByOneMinute}>-</button>
+            <p id="break-length">{breakLengthInMinutes}</p>
             <button className="pomodoro-btn break" onClick={incrementBreakLengthByOneMinute}>+</button>
-        </div>
+            </div>
+            </div>
     )
 }
 

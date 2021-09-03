@@ -27,6 +27,10 @@ I included here some lofi playlists for background music 🎶
 
 I included Draggable React Librabry in order to make everything draggable and improve UX
 
+## 📱Mobile friendly
+
+Altought this app was created thinking about desktop first, it also works on mobile devices! Now we can enjoy studiolofi everywhere 🥳
+
 ## This will continue...
 
 I'm planning on adding more cool stuff on this app so stay tuned for more!🥰

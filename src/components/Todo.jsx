@@ -55,6 +55,8 @@ export default function Todo() {
     setTodos(newTodos);
   };
 
+  const todosLeft = todos.filter((todo) => !todo.completed).length
+
   return (
     <>
     <Draggable>
@@ -92,8 +94,10 @@ export default function Todo() {
         </div>
         <div className="window-footer">
           <div id="todosLeft">
-            You can do it! Only {todos.filter((todo) => !todo.completed).length}{" "}
-            more ♥
+            {todosLeft === 0 ? 'Congrats! You nailed it today!':
+            `You can do it! Only ${todosLeft}
+            more ♥`
+          }
           </div>
         </div>
       </div>

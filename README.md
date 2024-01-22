@@ -39,4 +39,4 @@ I'm planning on adding more cool stuff on this app so stay tuned for more!🥰
 
 Made with ♥ by Cami 
 
-Thank's for reading! You can contact me anytime https://camilapeludero.netlify.app/
+Thank's for reading! You can check [my portfolio](https://portfolio-camipeludero.vercel.app/) for more of my work

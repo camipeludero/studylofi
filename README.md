@@ -1,6 +1,6 @@
 # This is ✨ studiolofi ✨
 
-Visit the site -> http://studiolofi.herokuapp.com/
+Visit the site -> https://studiolofi.vercel.app/
 
 ## About
 

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import Pomodoro from './components/Pomodoro';
 import Video from './components/Video';
 import Todo from './components/Todo';

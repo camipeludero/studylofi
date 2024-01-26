@@ -1,22 +1,23 @@
-import { useRef, useEffect } from 'react';
-import Pomodoro from './components/Pomodoro';
-import Video from './components/Video';
-import Todo from './components/Todo';
-import './App.css';
+import { useRef } from "react";
+import Pomodoro from "./components/Pomodoro/Pomodoro";
+import VideoPlayer from "./components/Player/VideoPlayer";
+import Todo from "./components/TodoList/Todo";
+import "./App.css";
 
 function App() {
-    const overlay = useRef(null);
-    return (
-        <>
-        <div id="overlay" ref={overlay}>    
-        <h1>studio lofi</h1>
-        
+  const overlay = useRef(null);
+  return (
+    <>
+
+      <div id="overlay" ref={overlay}>
+        <h1>studylofi</h1>
         <Pomodoro />
-            <Todo />
-        </div> 
-        <Video />
-        </>
-    )
+        <Todo />
+      </div>
+      <VideoPlayer />
+     
+    </>
+  );
 }
 
-export default App
+export default App;

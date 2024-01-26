@@ -1,10 +1,10 @@
-# This is ✨ studiolofi ✨
+# This is ✨ studylofi ✨
 
-Visit the site -> https://studiolofi.vercel.app/
+Visit the site -> https://studylofi.vercel.app/
 
 ## About
 
-STUDIOLOFI was born after the constant hours I spend on my laptop -coding, studying, coding again- and the awful _beep_ sound that the Pomodoro App on my phone had. So I mixed some lofi ambience and REACT to make it the perfect study/coding buddy.
+STUDYLOFI was born after the constant hours I spend on my laptop -coding, studying, coding again- and the awful _beep_ sound that the Pomodoro App on my phone had. So I mixed some lofi ambience and REACT to make it the perfect study/coding buddy.
 
 Now I'm loving that my favourite app on the web is made by me ❤
 
@@ -29,7 +29,7 @@ I included Draggable React Librabry in order to make everything draggable and im
 
 ## 📱Mobile friendly
 
-Altought this app was created thinking about desktop first, it also works on mobile devices! Now we can enjoy studiolofi everywhere 🥳
+Altought this app was created thinking about desktop first, it also works on mobile devices! Now we can enjoy studylofi everywhere 🥳
 
 ## This will continue...
 

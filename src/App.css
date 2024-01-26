@@ -65,6 +65,13 @@ button{
   color: #FC6095;
   cursor: grab;
 }
+.window.minimized .window-body{
+  display: none;
+}
+
+.window-body{
+  display: block;
+}
 
 .window-header, .window-footer{
   display: flex;

@@ -1,5 +1,5 @@
 {
-  "name": "studio",
+  "name": "studylofi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,13 +7,10 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@vitejs/plugin-react": "^4.2.1",
-    "gsap": "^3.7.1",
-    "moment": "^2.29.1",
-    "moment-duration-format": "^2.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-draggable": "^4.4.4",
-    "react-player": "^2.9.0",
+    "react-draggable": "^4.4.6",
+    "react-player": "^2.14.1",
     "react-youtube": "^7.13.1",
     "uuid": "^9.0.1",
     "vite": "^5.0.12",
@@ -46,6 +43,7 @@
   "devDependencies": {
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "@types/uuid": "^9.0.8",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
